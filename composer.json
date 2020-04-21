@@ -1,0 +1,38 @@
+{
+    "name": "facile/zf1-dbal-adapter",
+    "description": "ZF1 Doctrine DBAL Adapter for MySql",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Vargiu",
+            "email": "thomas.vargiu@facile.it"
+        }
+    ],
+    "keywords": [
+        "zf1",
+        "mysql",
+        "doctrine",
+        "dbal",
+        "adapter"
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.1",
+        "doctrine/dbal": "^2.0"
+    },
+    "require-dev": {
+        "zendframework/zendframework1": "dev-master#f95e971b3305744909d3ccb061182d00f1944a46 as 1.12.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Facile\\ZF1DbAdapter\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/thomasvargiu/zf1.git"
+        }
+   ]
+}

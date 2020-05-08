@@ -1,5 +1,5 @@
 {
-    "name": "facile/zf1-dbal-adapter",
+    "name": "facile-it/zf1-dbal-adapter",
     "description": "ZF1 Doctrine DBAL Adapter for MySql",
     "type": "library",
     "license": "MIT",
